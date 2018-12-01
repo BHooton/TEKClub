@@ -1,0 +1,21 @@
+body {
+  background: #F5F5F5;
+  font-family: "Numito", sans-serif;
+}
+
+#mainNavbar .navbar-brand{
+  color: #DC143C;
+}
+
+#mainNavbar .nav-link{
+  color: red;
+}
+
+#mainNavbar .nav-link:hover{
+  color: grey;
+}
+
+#mainNavbar{
+  font-size: 1.5rem;
+  font-weight: 100;
+}

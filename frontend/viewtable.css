@@ -1,0 +1,43 @@
+*, *:before, *:after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    background: white;
+  ;
+  font-family: 'Montserrat', sans-serif;
+  }
+  table {
+    background: #666666;
+    border-radius: 0.25em;
+    border-collapse: collapse;
+    margin-left: 1em;
+    margin-right: 1em;
+    padding-left: 5px;
+    padding-right: 5px;
+  }
+  th {
+    border-bottom: 1px solid black;
+    color: white;
+    background-color:  #9A0E2A;
+    font-size: 0.85em;
+    font-weight: 600;
+    padding: 0.5em 1em;
+    text-align: left;
+  }
+  td {
+    color: #000000;
+    font-weight: 400;
+    padding: 0.65em 1em;
+    color: white;
+  }
+  tbody tr {
+    transition: background 0.25s ease;
+  }
+  tbody tr:hover {
+    background: black;
+  }
+  
+  
